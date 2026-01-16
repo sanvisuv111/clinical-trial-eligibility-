@@ -1,0 +1,46 @@
+{
+  "patient_id": "PT-SAMPLE-001",
+  "name": "Alice Robertson",
+  "date_of_birth": "1965-03-22",
+  "gender": "Female",
+  "medical_history": [
+    "Type 2 Diabetes Mellitus",
+    "Essential Hypertension",
+    "Hyperlipidemia",
+    "Obesity"
+  ],
+  "current_medications": [
+    "Metformin 1000mg BID",
+    "Lisinopril 10mg daily",
+    "Atorvastatin 20mg daily",
+    "Aspirin 81mg daily"
+  ],
+  "allergies": [
+    "Penicillin"
+  ],
+  "lab_results": {
+    "HbA1c": 7.8,
+    "glucose_fasting": 145,
+    "creatinine": 0.95,
+    "eGFR": 78,
+    "total_cholesterol": 198,
+    "LDL": 115,
+    "HDL": 42,
+    "triglycerides": 195,
+    "ALT": 28,
+    "AST": 32,
+    "systolic_bp": 148,
+    "diastolic_bp": 88
+  },
+  "vital_signs": {
+    "blood_pressure": "148/88",
+    "heart_rate": 74,
+    "respiratory_rate": 16,
+    "temperature": 98.6,
+    "BMI": 32.5
+  },
+  "comorbidities": [
+    "Metabolic Syndrome",
+    "Insulin Resistance"
+  ]
+}

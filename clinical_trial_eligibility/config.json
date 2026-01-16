@@ -1,0 +1,69 @@
+{
+  "application": {
+    "name": "Clinical Trial Eligibility Engine",
+    "version": "1.0.0",
+    "description": "Automated system for evaluating clinical trial patient eligibility",
+    "author": "Clinical Research Technologies"
+  },
+  "criteria_rules": {
+    "age_validation": {
+      "min_allowed": 0,
+      "max_allowed": 150,
+      "description": "Valid age range for criterion evaluation"
+    },
+    "default_thresholds": {
+      "hba1c_normal_max": 5.7,
+      "hba1c_prediabetes_max": 6.4,
+      "hba1c_diabetes_min": 6.5,
+      "blood_pressure_normal": "120/80",
+      "blood_pressure_elevated": "120-129/<80",
+      "blood_pressure_stage1": "130-139/80-89",
+      "blood_pressure_stage2": ">=140/>=90"
+    }
+  },
+  "screening_modes": {
+    "single_patient_single_trial": {
+      "enabled": true,
+      "description": "Screen one patient against one trial"
+    },
+    "batch_screening": {
+      "enabled": true,
+      "description": "Screen multiple patients against one trial",
+      "max_batch_size": 10000
+    },
+    "patient_trial_matching": {
+      "enabled": true,
+      "description": "Find all matching trials for a patient"
+    }
+  },
+  "report_formats": {
+    "json": {
+      "enabled": true,
+      "description": "JSON format output"
+    },
+    "text": {
+      "enabled": true,
+      "description": "Human-readable text format"
+    }
+  },
+  "sample_trials": [
+    {
+      "id": "TRIAL-DM-2024-001",
+      "name": "Advanced Diabetes Management Study",
+      "phase": "Phase III",
+      "disease_area": "Endocrinology"
+    },
+    {
+      "id": "TRIAL-CV-2024-002",
+      "name": "Hypertension and Cardiovascular Outcomes Study",
+      "phase": "Phase III",
+      "disease_area": "Cardiology"
+    },
+    {
+      "id": "TRIAL-RESP-2024-003",
+      "name": "Asthma Control Enhancement Study",
+      "phase": "Phase II/III",
+      "disease_area": "Pulmonology"
+    }
+  ]
+}
