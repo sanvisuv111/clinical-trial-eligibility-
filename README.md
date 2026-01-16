@@ -12,14 +12,23 @@ Automatically evaluates patient health records against trial requirements to ide
 
 Core Capabilities:
 -Parses Patient Records – Reads electronic health records (EHR) from standardized formats
+
 -Evaluates Eligibility – Automatically checks complex medical criteria:
+
 -Age requirements
+
 -Medical conditions (diabetes, heart disease, etc.)
+
 -Current medications
+
 -Lab values
+
 -Allergies
+
 -Filters & Matches – Rapidly identifies which patients qualify for which trials
+
 -Generates Reports – Provides detailed eligibility assessments explaining decisions
+
 
 Real Impact:
 -Speeds up clinical trial recruitment
